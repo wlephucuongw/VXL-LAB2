@@ -1,0 +1,11 @@
+main.c:66:6:display7SEG	32	static
+main.c:103:6:displayMatrixLed	16	static
+main.c:114:6:updateLEDMatrix	16	static
+main.c:153:6:clear_matrix	8	static
+main.c:173:6:ripple_animation	16	static
+main.c:246:5:main	16	static
+main.c:293:6:SystemClock_Config	72	static
+main.c:329:13:MX_TIM2_Init	32	static
+main.c:374:13:MX_GPIO_Init	32	static
+main.c:423:6:HAL_TIM_PeriodElapsedCallback	16	static
+main.c:432:6:Error_Handler	4	static,ignoring_inline_asm
