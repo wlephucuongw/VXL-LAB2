@@ -178,11 +178,11 @@ HAL_TIM_Base_Start_IT(&htim2);
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
 setTimer0(1000);
-setTimer1(500);
+setTimer1(250);
   while (1)
   {
 	  if(timer1_flag == 1){
-		  setTimer1(500);
+		  setTimer1(250);
 		  index_led = index_led % 4;
 		  update7SEG(index_led++);
 	  }
